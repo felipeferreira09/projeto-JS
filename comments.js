@@ -1,3 +1,5 @@
+/*
+
 //function
 
 
@@ -130,7 +132,7 @@ console.log(phraseWithUnderScore)
 let Phrase = "eu quero viver o Amor"
 console.log(Phrase.includes("Amor"))
 
- /*
+ 
 
     new
 
@@ -168,7 +170,7 @@ let queijo = true
 const niceBreakfast = pao && queijo ?'café top' : 'cafe ruim'
 console.log(niceBreakfast)
 //Maior de 18
-*/
+
 
 let age = 19
 const canDrive = age >= 18 ? 'can drive' : "can't drive";
@@ -176,3 +178,95 @@ const canDrive = age >= 18 ? 'can drive' : "can't drive";
 console.log(canDrive)
 
 
+
+//switch
+
+let expression = 'c'
+
+
+switch (expression) {
+    case 'a':
+        //codigo
+        console.log('a')
+        break;
+        
+    case 'b':
+        //codigo b
+        console.log('b')
+        break;
+
+    default:
+        console.log('default')
+        break;
+
+
+}
+
+//estrutura de repetição 
+//for
+
+for(let i = 10; i > 0; i--) {
+    if (i === 5) {
+        continue;   //usado para pular algo, neste caso ira pular o 5
+    }
+    console.log(i)
+}
+
+
+//while
+let i = 0
+while(i < 10) {
+console.log(i)
+i++;
+}
+
+//for...of
+
+let name = 'felipe'
+let names = ['joao', 'paulo', 'pedro']
+
+for (let name of names) {
+
+    console.log(name)
+}//for...in
+
+let person = {
+    name: 'jonh',
+    age: 30,
+    weight: 88.6
+}
+
+for(let property in person) {
+    console.log(property)
+    console.log(person[property])
+}
+
+//transformar notas escolares
+
+let nota = 90;
+
+if (nota >= 90) {
+    console.log('Parabens, sua nota foi A')
+}
+
+else if (nota >= 80){
+    console.log('sua nota foi B')
+}
+
+else if (nota >= 70){
+    console.log('sua nota foi C')
+}
+
+else if (nota >= 60){
+    console.log('sua nota foi D')
+}
+
+else if (nota < 60){
+    console.log('sua nota foi F')
+}
+
+
+
+
+
+*/
